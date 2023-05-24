@@ -1,0 +1,4 @@
+total 5
+drwxr-xr-x 1 Wendy 197610  0 May 24 00:13 ./
+drwxr-xr-x 1 Wendy 197610  0 May 24 00:12 ../
+-rw-r--r-- 1 Wendy 197610 19 May 24 00:13
