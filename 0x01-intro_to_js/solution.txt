@@ -1,0 +1,24 @@
+
+Let is used when assigning a variable  or naming a variable while const is used when you want to store or 
+declare a permanent or constant name. 
+Var is used to declare a temporary variable so its no different from let but with constant its not easily
+changed.
+
+we can use a variable after we've defined by assiging it to a value.
+
+we declare a string by putting a value in a double quote "".
+
+we can create a string using a double quotes because 
+thats the standard for a string while the single
+quote is for characters(char)
+
+9 with quotes makes it a string while 9 without a quote is recognised
+as a number.
+
+Declaration introduces a new identifier to a program.
+Redeclaration re introduces an old identifier to a program
+Reassignment it used to set an already existing  variable name to a value
+Assignment it is used to set a value to a variable name.
+
+
+
