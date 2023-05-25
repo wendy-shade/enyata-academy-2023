@@ -1,0 +1,107 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.Box3 {
+    width: 350px;
+    height: 620px;
+    background: dodgerblue;
+    border: 1px solid #000000;
+    margin: auto;
+    color: white;
+    text-align:center ;
+    align-items: baseline ;
+
+   
+      
+}
+
+
+.Box1 {
+    display: flex;
+    justify-content: center;
+    width: 275px;
+    height: 240px;
+    background: tomato;
+    border: 1px solid #ffffff;
+    margin: 40px;
+    color: white;
+    align-items: center;
+   text-align: center;
+   
+    
+    
+}
+
+.Box2 {
+    display: flex;
+    justify-content: center;
+  width: 275px; 
+height: 240px;
+    background: #8F00FF;
+    border: 1px solid #ffffff;
+    margin: 40px;
+    color :white;
+    text-align: justify;
+    align-items: center;
+    
+}
+
+/*Responsive page*/
+.View-Responsive {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 80%;
+    margin: 100px auto;
+    
+  }
+  
+  .Boxgrid {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+  
+  .gridbox {
+    background-color: #868e96;
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .Boxgrid {
+      display: flex;
+      flex-direction: row;
+      gap: 30px;
+    }
+  
+    .gridbox {
+      background-color: #868e96;
+      width: 150px;
+      height: 150px;
+    }
+  }
+  
+  @media screen and (min-width: 360px) and (max-width: 640px) {
+    .Boxgrid {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .gridbox {
+      width: 70PX;
+      height: 100px;
+      margin: 0 auto;
+    }
+  }
+
+
+
+
+
+
